@@ -1,0 +1,152 @@
+{
+  "$id": "1",
+  "$type": "Lumen.Data.Entities.Dto.Deployments.ExportConfigItemDto, Lumen.Data.Entities",
+  "Id": 4,
+  "Name": "DE_CCALC_DPRICE",
+  "EntityType": 7,
+  "Item": {
+    "$id": "2",
+    "$type": "Lumen.Data.Entities.DataElements.DataElementQuery, Lumen.Data.Entities",
+    "EntityType": 7,
+    "ProcessingMethod": 0,
+    "QueryMethod": 0,
+    "ShouldClearDefinition": false,
+    "BatchSize": 1000,
+    "PrimaryKeyField": "",
+    "ShouldNotCreateIdnkey": false,
+    "OutputPath": "",
+    "OutputFileName": "",
+    "OutputExtension": "",
+    "ConnectionID": 2,
+    "MainStatement": "Select *\nFrom [SHEET1$A1:F37]",
+    "DynamicParameters": "",
+    "PreExecutionSQL": "",
+    "PostExecutionSQL": "",
+    "AttachedAsRuleSet": false,
+    "OptionalData": [],
+    "ColumnDefinitions": [
+      {
+        "$id": "3",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 1,
+        "Name": "Date",
+        "DataType": "datetime",
+        "IsIndex": false,
+        "LibraryDescription": "255,255",
+        "LibraryDataType": "datetime",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 172
+      },
+      {
+        "$id": "4",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 2,
+        "Name": "Security Name",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 173
+      },
+      {
+        "$id": "5",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 3,
+        "Name": "Security Code",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 174
+      },
+      {
+        "$id": "6",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 4,
+        "Name": "Security Class",
+        "DataType": "datetime",
+        "IsIndex": false,
+        "LibraryDescription": "255,255",
+        "LibraryDataType": "datetime",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 175
+      },
+      {
+        "$id": "7",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 5,
+        "Name": "Sell or Close Price",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 176
+      },
+      {
+        "$id": "8",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 6,
+        "Name": "Buy Price",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 177
+      }
+    ],
+    "FileGroup": "PRIMARY",
+    "SchemaName": "CALC",
+    "DBObjectName": "DE_CCALC_DPRICE",
+    "DatabaseObjectType": 0,
+    "FullDBObjectName": "[CALC].[DE_CCALC_DPRICE]",
+    "DefaultQuery": "SELECT * FROM [CALC].[DE_CCALC_DPRICE]",
+    "DBObjectNameOriginal": "DE_CCALC_DPRICE",
+    "SchemaNameOriginal": "CALC",
+    "HasChangedSchemaOrDBObjectName": false,
+    "LastRunTime": "2017-06-22T02:14:52",
+    "LastRunUserName": "Tina.Pillai",
+    "LastStatus": "Import completed (Stats - Records:36  Size:8 KB IndexSize:8 KB Execution Time: 12ms)",
+    "IsMarkedAsReleaseVersion": false,
+    "IsImport": false,
+    "ProjectID": 5,
+    "TitleName": "DE_CCALC_DPRICE",
+    "Group": "Compensation Calc",
+    "Description": "",
+    "LastUpdatedUserName": "Tina Pillai",
+    "LastUpdateTime": "2017-06-22T02:14:42",
+    "AuditIdentifier": "DE_CCALC_DPRICE - 4",
+    "ParamsUsed": false,
+    "ID": 4
+  },
+  "CurrentProjectId": 5,
+  "AssociatedObjects": "{\"Connection\":{\"ConnectionId\":2,\"ConnectionName\":\"EXCEL_CCALC_DPRICE\"}}",
+  "UniqueId": "00000000-0000-0000-0000-000000000000"
+}

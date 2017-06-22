@@ -1,0 +1,296 @@
+{
+  "$id": "1",
+  "$type": "Lumen.Data.Entities.Dto.Deployments.ExportConfigItemDto, Lumen.Data.Entities",
+  "Id": 1,
+  "Name": "DE_CCALC_DCASH",
+  "EntityType": 7,
+  "Item": {
+    "$id": "2",
+    "$type": "Lumen.Data.Entities.DataElements.DataElementQuery, Lumen.Data.Entities",
+    "EntityType": 7,
+    "ProcessingMethod": 0,
+    "QueryMethod": 0,
+    "ShouldClearDefinition": false,
+    "BatchSize": 1000,
+    "PrimaryKeyField": "",
+    "ShouldNotCreateIdnkey": false,
+    "OutputPath": "",
+    "OutputFileName": "",
+    "OutputExtension": "",
+    "ConnectionID": 1,
+    "MainStatement": "SELECT * FROM \n[SHEET1$A1:O343]",
+    "DynamicParameters": "",
+    "PreExecutionSQL": "",
+    "PostExecutionSQL": "",
+    "AttachedAsRuleSet": false,
+    "OptionalData": [],
+    "ColumnDefinitions": [
+      {
+        "$id": "3",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 1,
+        "Name": "InvestmentNumber",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 73
+      },
+      {
+        "$id": "4",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 2,
+        "Name": "AccountCloseDate",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 74
+      },
+      {
+        "$id": "5",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 3,
+        "Name": "Case ID",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 75
+      },
+      {
+        "$id": "6",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 4,
+        "Name": "MONTH_KEY",
+        "DataType": "datetime",
+        "IsIndex": false,
+        "LibraryDescription": "255,255",
+        "LibraryDataType": "datetime",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 76
+      },
+      {
+        "$id": "7",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 5,
+        "Name": "SOURCE_SYSTEM_CUSTOMER_ID",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 77
+      },
+      {
+        "$id": "8",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 6,
+        "Name": "TRANSACTION_EFFV_DATE",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 78
+      },
+      {
+        "$id": "9",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 7,
+        "Name": "TRANSACTION_ENTRY_DATE",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 79
+      },
+      {
+        "$id": "10",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 8,
+        "Name": "TRANSACTION_SETTLEMENT_DATE",
+        "DataType": "datetime",
+        "IsIndex": false,
+        "LibraryDescription": "255,255",
+        "LibraryDataType": "datetime",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 80
+      },
+      {
+        "$id": "11",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 9,
+        "Name": "TRANSACTION_TYPE",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 81
+      },
+      {
+        "$id": "12",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 10,
+        "Name": "TRANSACTION_TYPE_DESC",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 82
+      },
+      {
+        "$id": "13",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 11,
+        "Name": "TRANSACTION_SUBTYPE",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 83
+      },
+      {
+        "$id": "14",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 12,
+        "Name": "TRANSACTION_SUBTYPE_DESC",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 84
+      },
+      {
+        "$id": "15",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 13,
+        "Name": "INV_UNIT_CODE",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 85
+      },
+      {
+        "$id": "16",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 14,
+        "Name": "ASX_APIR_CODE",
+        "DataType": "varchar(255)",
+        "IsIndex": false,
+        "LibraryDescription": "255",
+        "LibraryDataType": "string",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 86
+      },
+      {
+        "$id": "17",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 15,
+        "Name": "TRANASACTION_VALUE",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 87
+      }
+    ],
+    "FileGroup": "PRIMARY",
+    "SchemaName": "CALC",
+    "DBObjectName": "DE_CCALC_DCASH",
+    "DatabaseObjectType": 0,
+    "FullDBObjectName": "[CALC].[DE_CCALC_DCASH]",
+    "DefaultQuery": "SELECT * FROM [CALC].[DE_CCALC_DCASH]",
+    "DBObjectNameOriginal": "DE_CCALC_DCASH",
+    "SchemaNameOriginal": "CALC",
+    "HasChangedSchemaOrDBObjectName": false,
+    "LastRunTime": "2017-06-22T01:55:12",
+    "LastRunUserName": "Tina.Pillai",
+    "LastStatus": "Import completed (Stats - Records:342  Size:56 KB IndexSize:8 KB Execution Time: 10ms)",
+    "IsMarkedAsReleaseVersion": false,
+    "IsImport": false,
+    "ProjectID": 5,
+    "TitleName": "DE_CCALC_DCASH",
+    "Group": "Compensation Calc",
+    "Description": "",
+    "LastUpdatedUserName": "Tina Pillai",
+    "LastUpdateTime": "2017-06-22T01:54:56",
+    "AuditIdentifier": "DE_CCALC_DCASH - 1",
+    "ParamsUsed": false,
+    "ID": 1
+  },
+  "CurrentProjectId": 5,
+  "AssociatedObjects": "{\"Connection\":{\"ConnectionId\":1,\"ConnectionName\":\"EXCEL_CCALC_DCASH\"}}",
+  "UniqueId": "00000000-0000-0000-0000-000000000000"
+}

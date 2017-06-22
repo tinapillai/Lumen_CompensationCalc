@@ -1,0 +1,152 @@
+{
+  "$id": "1",
+  "$type": "Lumen.Data.Entities.Dto.Deployments.ExportConfigItemDto, Lumen.Data.Entities",
+  "Id": 2,
+  "Name": "DE_CCALC_RP_TVM",
+  "EntityType": 7,
+  "Item": {
+    "$id": "2",
+    "$type": "Lumen.Data.Entities.DataElements.DataElementQuery, Lumen.Data.Entities",
+    "EntityType": 7,
+    "ProcessingMethod": 0,
+    "QueryMethod": 0,
+    "ShouldClearDefinition": false,
+    "BatchSize": 1000,
+    "PrimaryKeyField": "",
+    "ShouldNotCreateIdnkey": false,
+    "OutputPath": "",
+    "OutputFileName": "",
+    "OutputExtension": "",
+    "ConnectionID": 5,
+    "MainStatement": "SELECT * FROM\n[SHEET1$A1:F300]",
+    "DynamicParameters": "",
+    "PreExecutionSQL": "",
+    "PostExecutionSQL": "",
+    "AttachedAsRuleSet": false,
+    "OptionalData": [],
+    "ColumnDefinitions": [
+      {
+        "$id": "3",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 1,
+        "Name": "Source",
+        "DataType": "datetime",
+        "IsIndex": false,
+        "LibraryDescription": "255,255",
+        "LibraryDataType": "datetime",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 22
+      },
+      {
+        "$id": "4",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 2,
+        "Name": "Aggressive",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 23
+      },
+      {
+        "$id": "5",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 3,
+        "Name": "Growth",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 24
+      },
+      {
+        "$id": "6",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 4,
+        "Name": "Balanced",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 25
+      },
+      {
+        "$id": "7",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 5,
+        "Name": "Moderate",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 26
+      },
+      {
+        "$id": "8",
+        "$type": "Lumen.Data.Entities.DataElements.DataElementQueryColumnDefinition, Lumen.Data.Entities",
+        "ColumnDefType": 0,
+        "ColOrder": 6,
+        "Name": "Conservative",
+        "DataType": "decimal(15,4)",
+        "IsIndex": false,
+        "LibraryDescription": "15,255",
+        "LibraryDataType": "double",
+        "DEQuery": {
+          "$ref": "2"
+        },
+        "DataElementQueryID": 0,
+        "ID": 27
+      }
+    ],
+    "FileGroup": "PRIMARY",
+    "SchemaName": "CALC",
+    "DBObjectName": "DE_CCALC_RP_TVM",
+    "DatabaseObjectType": 0,
+    "FullDBObjectName": "[CALC].[DE_CCALC_RP_TVM]",
+    "DefaultQuery": "SELECT * FROM [CALC].[DE_CCALC_RP_TVM]",
+    "DBObjectNameOriginal": "DE_CCALC_RP_TVM",
+    "SchemaNameOriginal": "CALC",
+    "HasChangedSchemaOrDBObjectName": false,
+    "LastRunTime": "2017-06-22T02:12:04",
+    "LastRunUserName": "Tina.Pillai",
+    "LastStatus": "Import completed (Stats - Records:214  Size:24 KB IndexSize:8 KB Execution Time: 27ms)",
+    "IsMarkedAsReleaseVersion": false,
+    "IsImport": false,
+    "ProjectID": 5,
+    "TitleName": "DE_CCALC_RP_TVM",
+    "Group": "Compensation Calc",
+    "Description": "",
+    "LastUpdatedUserName": "Tina Pillai",
+    "LastUpdateTime": "2017-06-22T01:52:46",
+    "AuditIdentifier": "DE_CCALC_RP_TVM - 2",
+    "ParamsUsed": false,
+    "ID": 2
+  },
+  "CurrentProjectId": 5,
+  "AssociatedObjects": "{\"Connection\":{\"ConnectionId\":5,\"ConnectionName\":\"EXCEL_CCALC_DRP_TVM\"}}",
+  "UniqueId": "00000000-0000-0000-0000-000000000000"
+}

@@ -1,0 +1,43 @@
+{
+  "$id": "1",
+  "$type": "Lumen.Data.Entities.Dto.Deployments.ExportConfigItemDto, Lumen.Data.Entities",
+  "Id": 4,
+  "Name": "EXCEL_CCALC_DTVM",
+  "EntityType": 1,
+  "Item": {
+    "$id": "2",
+    "$type": "Lumen.Data.Entities.Connections.ConnectionEntity, Lumen.Data.Entities",
+    "ConnectionType": 0,
+    "Catalog": "@InputDir\\dTVM.xlsx",
+    "UserId": "",
+    "Password": "",
+    "Server": "",
+    "KeyFileProvider": "",
+    "KeyPassphrase": "",
+    "EntityType": 1,
+    "Group": "Excel",
+    "ConnectionDetails": {
+      "$id": "3",
+      "$type": "Lucsan.Shared.Entities.ConnectionDetails, Lucsan.Shared",
+      "Catalog": "@InputDir\\dTVM.xlsx",
+      "UserId": "",
+      "Password": "",
+      "Server": "",
+      "Timeout": 0,
+      "KeyFileProvider": "",
+      "KeyPassphrase": "",
+      "MaxRowCount": 0,
+      "IntegratedSecurity": false
+    },
+    "ProjectID": 5,
+    "TitleName": "EXCEL_CCALC_DTVM",
+    "Description": "",
+    "LastUpdatedUserName": "Tina.Pillai",
+    "LastUpdateTime": "2017-06-22T01:41:18.887",
+    "AuditIdentifier": "EXCEL_CCALC_DTVM - 4",
+    "ParamsUsed": false,
+    "ID": 4
+  },
+  "CurrentProjectId": 5,
+  "UniqueId": "00000000-0000-0000-0000-000000000000"
+}
