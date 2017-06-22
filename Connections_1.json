@@ -8,7 +8,7 @@
     "$id": "2",
     "$type": "Lumen.Data.Entities.Connections.ConnectionEntity, Lumen.Data.Entities",
     "ConnectionType": 0,
-    "Catalog": "C:\\Compensation_Calc\\dCash.xlsx",
+    "Catalog": "C:\\Compensation_Calc\\dCash1.xlsx",
     "UserId": "",
     "Password": "",
     "Server": "",
